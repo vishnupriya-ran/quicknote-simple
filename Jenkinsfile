@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git ''
+                git 'https://github.com/vishnupriya-ran/quicknote-simple.git'
             }
         }
 
