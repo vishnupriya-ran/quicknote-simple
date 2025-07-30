@@ -15,7 +15,6 @@ pipeline {
                 docker-compose up --build -d
                 '''
             }
-
         }
     }
 }
